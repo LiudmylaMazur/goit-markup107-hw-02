@@ -53,6 +53,11 @@ body {
   color: #2e2f42;
 }
 
+.header-item-link:hover,
+.header-item-link:focus {
+  color: #404bbf;
+}
+
 .address {
 }
 
@@ -70,6 +75,10 @@ body {
   color: #434455;
 }
 
+.address-item-link:hover {
+  color: #404bbf;
+}
+
 .first {
   background-color: #2e2f42;
 }
@@ -81,6 +90,23 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+}
+
+.title-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+.title-button:hover {
+  background-color: #404bbf;
 }
 
 .second-title {
