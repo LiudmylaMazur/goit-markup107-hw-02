@@ -61,7 +61,6 @@ body {
 }
 
 .address {
-  font-style: normal;
 }
 
 .address-list {
@@ -76,9 +75,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
 }
 
-.address-item-link:hover {
+.address-item-link:hover,
+.address-item-link:focus {
   color: #404bbf;
 }
 
@@ -92,24 +93,10 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
+  text-align: center;
 }
 
-position,
-width,
-height,
-left,
-top,
-box-sizing,
-display,
-align-items,
-padding,
-flex-direction,
-gap,
-border-radius,
-box-shadow,
-order,
-flex-grow,
-border-bottom .title-button {
+.title-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -117,6 +104,7 @@ border-bottom .title-button {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
 }
 
 .title-button:hover {
