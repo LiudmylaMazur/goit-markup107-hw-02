@@ -61,6 +61,7 @@ body {
 }
 
 .address {
+  font-style: normal;
 }
 
 .address-list {
@@ -75,7 +76,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal;
 }
 
 .address-item-link:hover,
@@ -107,7 +107,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.title-button:hover {
+.title-button:hover,
+.title-button:focus {
   background-color: #404bbf;
 }
 
@@ -118,6 +119,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .third-title {
@@ -153,6 +155,7 @@ body {
 }
 
 .third-item {
+  background-color: #ffffff;
 }
 
 .third-img {
