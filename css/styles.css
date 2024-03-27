@@ -183,7 +183,8 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #f4f4fd;
+  color: #4d5ae5;
+  text-transform: uppercase;
 }
 
 .footer-link-span {
@@ -192,7 +193,7 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 
 .footer-text {
